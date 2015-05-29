@@ -1,10 +1,10 @@
-#!/usr/bin/ruby
+#!/bin/bash
 # bin/compile <build-dir> <cache-dir>
 
-120.times do
-	puts "-----> Sleeping for 30s"
+for i in `seq 120`; do
+	echo "-----> $i) Sleeping for 30s"
 	sleep 30
-end
+done
 
 puts "-----> More injury"
 sleep 30
