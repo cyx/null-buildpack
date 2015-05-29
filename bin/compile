@@ -1,4 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ruby
 # bin/compile <build-dir> <cache-dir>
 
-echo "-----> Nothing to do."
+120.times do
+	puts "-----> Sleeping for 30s"
+	sleep 30
+end
+
+puts "-----> More injury"
+sleep 30
+
+echo "-----> Nothing to do for 1 hour + 30s"
