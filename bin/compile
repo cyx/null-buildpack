@@ -1,12 +1,7 @@
 #!/bin/bash
 # bin/compile <build-dir> <cache-dir>
 
-for i in `seq 120`; do
-	echo "-----> $i) Sleeping for 30s"
-	sleep 30
+for i in `seq 10`; do
+	echo "-----> $i) Sleeping for 5s"
+	sleep 5
 done
-
-puts "-----> More injury"
-sleep 30
-
-echo "-----> Nothing to do for 1 hour + 30s"
