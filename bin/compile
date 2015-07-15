@@ -2,6 +2,8 @@
 # bin/compile <build-dir> <cache-dir>
 
 for i in `seq 10`; do
-	echo "-----> $i) Sleeping for 5s"
-	sleep 5
+	echo "-----> $i) Sleeping for 700s"
+	sleep 700
 done
+
+echo "Done"
